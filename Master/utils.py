@@ -36,3 +36,12 @@ def nearestYear(df1,df2):
                 new.loc[index,'RoundYear'] = None
            
     return new
+
+
+def rangeOfPercent(percent):
+    if percent < 17.5:
+        return 15
+    elif percent < 22.5:
+        return 20
+    else:
+        return 25

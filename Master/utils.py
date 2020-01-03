@@ -2,6 +2,19 @@ import pandas as pd
 import numpy as np
 
 def nearestYear(df1,df2):
+    
+    """
+    This function takes 2 dataframe and matches the first dataframes years of the second dataframe given country
+    
+    For examples:
+    We have the data that
+    Australia GDP spend for year 1992
+    The data for Australia inequality is at 1993
+    
+    The function returns 
+    RoundedYear
+    1993
+    """
     # Match the year and the country with inequality dataset and than match the closest year with that countries yeardates
     # Match a year once as well
     # Get years of a given country in ineqality dataset
